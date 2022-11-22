@@ -57,6 +57,6 @@ jobs:
         
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: helloWorldService
+          service: task1
           cluster: helloWorldCluster
           wait-for-service-stability: true
