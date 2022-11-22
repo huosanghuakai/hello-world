@@ -1,8 +1,8 @@
-name: polygon-master
+name: helloworld-master
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 
 jobs:
